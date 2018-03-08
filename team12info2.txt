@@ -1,1 +1,13 @@
-Team Members: Jonathan Ng, Isaac Blekhman
+#Team Members: Jonathan Ng, Isaac Blekhman
+#team_name = 'Dumb Name'  # Only 10 chars displayed.
+#strategy_name = 'always betray'
+#strategy_description = 'Picks b always'
+
+
+def move(my_history, their_history, my_score, their_score):
+    if my_score = their_score:
+        return 'b'
+    elif my_score > their_score:
+        return 'b'
+    elif my_score < their_score:
+        return 'b'
