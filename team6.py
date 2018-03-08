@@ -9,7 +9,7 @@ import random
 
 team_name = 'sophialind'  # Only 10 chars displayed.
 strategy_name = 'The sneak attack'
-strategy_description = 'When they betray we betray or every 35th'
+strategy_description = 'When they betray we betray or every 10th'
 
 
 def move(my_history, their_history, my_score, their_score):
