@@ -7,9 +7,9 @@
 ####
 import random 
 
-team_name = 'sample' # Only 10 chars displayed.
-strategy_name = 'always collude'
-strategy_description = 'Picks c always'
+team_name = 'infinity' # Only 10 chars displayed.
+strategy_name = 'fair players that are still trying to win'
+strategy_description = 'if they betray us, we will betray them'
     
 def move(my_history, their_history, my_score, their_score):
     ''' Arguments accepted: my_history, their_history are strings.
@@ -43,7 +43,7 @@ def move(my_history, their_history, my_score, their_score):
     elif their_history[-3:] == 'ccb':
        return 'c'
     elif their_history[-3:] == 'bcc':
-        return 'c'
+       return 'c'
     else:
        return 'b'
     
