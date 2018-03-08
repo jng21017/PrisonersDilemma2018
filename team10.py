@@ -12,7 +12,7 @@ strategy_name = 'Operation copy cat'
 strategy_description = 'Start by betray and then do there most recent move every time'
 
 
-def Op_CC(my_history, their_history, my_score, their_score):
+def move(my_history, their_history, my_score, their_score):
     if len(my_history) == 0:
         return "b"
     else:
