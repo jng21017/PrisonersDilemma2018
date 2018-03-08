@@ -7,9 +7,9 @@
 ####
 import random 
 
-team_name = 'sample' # Only 10 chars displayed.
-strategy_name = 'always collude'
-strategy_description = 'Picks c always'
+team_name = 'PlzCollude' # Only 10 chars displayed.
+strategy_name = 'bait'
+strategy_description = 'collude 15 times and then betray'
     
 def move(my_history, their_history, my_score, their_score):
     ''' Arguments accepted: my_history, their_history are strings.
